@@ -1,6 +1,7 @@
 package net.ethem00.tonsocreatures;
 
 import com.mojang.logging.LogUtils;
+import net.ethem00.tonsocreatures.effect.ModEffects;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -35,6 +36,9 @@ public class TonsOCreatures
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        //Register effects for entities
+        ModEffects.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
