@@ -1,3 +1,6 @@
 {
-  "effect.tonsocreatures.charm": "Charm"
+  "effect.tonsocreatures.charm": "Charm",
+  "item.minecraft.potion.effect.charming": "Potion of Charming",
+  "item.minecraft.splash_potion.effect.charming": "Splash Potion of Charming",
+  "item.minecraft.lingering_potion.effect.charming": "Lingering Potion of Charming"
 }
